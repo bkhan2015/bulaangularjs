@@ -1,4 +1,5 @@
 # bulaangularjs
+...sh
 This is my first independent AngularJS project, here I will work on services, providers, and directives
 First, I have created Git hub account 
 second, I have created a new repository bkhan2015/bulaangularJS
@@ -10,3 +11,4 @@ create file .gitignore in your project folder( doesn't have any extention) it wi
 In git bash terminal, write the command $git init (To intialized the svn)
 It will create folder .git ( which is hidden file)
 Install bower through npm command in git bash ($ npm install -g bower) - Automatic file dependency downloder - it's dpwnload JQuery, AngularJS dependency for us.
+...
