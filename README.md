@@ -17,7 +17,7 @@ $npm install bourne body-parser --save ------(bourne - I will use as a local dat
 $git status - To see what we have added
 Create a public folder for frontend work
 Under public folder create three more folders such as css, src, lib
-$bower install angular bootstarp angular-route --save - It will create bower-componenet folder under server , but I want to it under public folder.
-Create a .bowerrc file manually under public folder - tells bower what should be the directory for bower component, also it tells to create .bowerrc file inside public directory instead of root directory.
+$bower install angular bootstarp angular-route --save - It will create bower-componenet folder under server , but I want it under public folder.
+Create a .bowerrc file manually under public folder - tells bower what should be the directory for bower component, it also tells to create .bowerrc file inside public directory instead of root directory.
 create bower.json manually file under public folder - if it doesn't create the command $bower init
 $bower install angular bootstrap angular-route --save
