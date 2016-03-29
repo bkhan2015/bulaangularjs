@@ -21,3 +21,9 @@ $bower install angular bootstarp angular-route --save - It will create bower-com
 Create a .bowerrc file manually under public folder - tells bower what should be the directory for bower component, it also tells to create .bowerrc file inside public directory instead of root directory.
 $bower init (sometimes this command doesn't work on Git bash command, the use windows cmd)it will create bower.jason file.
 $bower install angular bootstrap angular-route --save (All the dependencies will be install inside public/lib folder)
+create server.js file (static server to run your application locally)
+create main.html
+Add css folder and add bootstarp.css file 
+This is a full stack development that is MEAN stack (Mongo Express Angular NodeJS) currently I am not using boune instead of Mongo
+
+
