@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title> My Independent AngularJS project</title>
-  <link rel=style href="css\bootstrap.css" charset = "utf-8">
+  <link rel= "stylesheet" href ="lib\bootstrap\dist\js\bootstrap.js" media="screen">
 </head>
-<body>
-  <div class="page-header">
-    <h1>Bula's AngularJS MEAN stack project</h1>
+<body ng-app ="contactApp">
+  <div class="container">
+      <div class="page-header">
+        <h1>Bula's AngularJS MEAN stack project</h1>
+      </div>
+      <div class= "row" ng-controller ="ListController">
+        <div class="col-sm-12">{{title}}</div>
+      </div>
   </div>
 </body>
-<script src ="lib\JQuery\src\jquery.js"></script>
-<script src ="lib\bootstrap\dist\js\bootstrap.js"></script>
-<script src ="lib\angular\angular.js"></script>
-<script src ="lib\angular\angular-route.js"></script>
+  <script src ="lib\jquery\src\jquery.js"></script>
+  <script src ="lib\angular\angular.js"></script>
+  <script src ="lib\angular-route\angular-route.js"></script>
 </html>
