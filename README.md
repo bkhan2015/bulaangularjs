@@ -1,5 +1,5 @@
 # bulaangularjs
-This is my first independent AngularJS project, here I will work on services, providers, and directives
+This is my first independent AngularJS project, here I will work on controllers, services, providers, and directives
 First, I have created Git hub account
 second, I have created a new repository bkhan2015/bulaangularJS
 Install git bash from https://git-scm.com/download/win
@@ -25,6 +25,7 @@ Create main.html under public folder and add path source for angular, angular-ro
 create server.js file in root
 $git clone https://url to get your repository directory into your local machine
 create server.js file (static server to run your application locally)
-create main.html
+create index.html
 Add css folder and add bootstarp.css file
 This is a full stack development that is MEAN stack (Mongo Express Angular NodeJS) currently I am using boune instead of Mongo
+git commit -m "commit content"
