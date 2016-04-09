@@ -1,7 +1,7 @@
 # bulaangularjs
 This is my first independent AngularJS project, here I will work on controllers, services, providers, and directives
-First, I have created Git hub account
-second, I have created a new repository bkhan2015/bulaangularJS
+First, I have to create a Git hub account
+second, create a new repository bkhan2015/bulaangularJS
 Install git bash from https://git-scm.com/download/win
 Install node.js from https://nodejs.org/en/download/
 Install ATOM text editor which is free (https://atom.io/)
