@@ -28,4 +28,9 @@ create server.js file (static server to run your application locally)
 create index.html
 Add css folder and add bootstarp.css file
 This is a full stack development that is MEAN stack (Mongo Express Angular NodeJS) currently I am using boune instead of Mongo
-git commit -m "commit content"
+git add . [before commit check the status and add those files to commit locally]
+git commit -m "commit content" [commit your code into local]
+git push origin master [ to upload your file into master]
+http://jsonplaceholder.typicode.com/ [JSONPlaceholder is a free online REST service that you can use whenever you need some fake data]
+data.jason [ my local data base file for JSON Rest service call]
+api.js [root folder for Restfull API]
