@@ -1,9 +1,12 @@
 <h3> {{clock.now | date: 'medium'}} </h3>
 <div class="container">
-<a data-ng-click ="sayHello()"> <b>Click here to say Hello {{person.name}}</b></a>
+<!-- <a data-ng-click ="sayHello()"> <b>Click here to say Hello {{person.name}}</b></a>
+-->
 </div>
 <table class="table table-hover">
-  <td>
-    {{title}}
+  <td ng-repeat = "contact in contacts">
+  <!--  {{title}} -->
+    {{contact}}
+
   </td>
 </table>
