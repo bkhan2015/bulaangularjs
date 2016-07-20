@@ -7,8 +7,13 @@ angular.module('contactApp', ['ngRoute']);
       $routeProvider
       .when('/contacts', {
        controller: 'ListController',
-       templateUrl: 'views/contact-list.html'
-      })
-
+       templateUrl: 'views/contact-list.html',
+       resolve: {
+         ContactResolved: function (Contact){
+           return Contact.get();
+         }
+      }
+});
       $locationProvider.html5Mode(true);
+
 });

@@ -1,9 +1,14 @@
 angular.module('contactApp')
-        .controller('ListController', 'Contact', function ($scope, Contact){
-          //$scope.title = 'List Of Contacts';
-          Contact.get().then(function(data){
-            $scope.contacts = data.data;
-          });
+        .controller('ListController', function ($scope, ContactResolved){
+        //$scope.title = 'List Of Contacts';
+        //  setTimeout(function (argument){
+        //  Contact.get().then(function(data){
+        //    $scope.contacts = data.data;
+        //  });
+      //  }, 4000);
+      // through resolve services
+      $scope.contacts = ContactResolved.data;
+      debugger;
 
         //  $scope.person = {greeted: false};
         //  $scope.clock  = {
