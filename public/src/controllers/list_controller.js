@@ -8,8 +8,7 @@ angular.module('contactApp')
       //  }, 4000);
       // through resolve services
       $scope.contacts = ContactResolved.data;
-      debugger;
-
+      
         //  $scope.person = {greeted: false};
         //  $scope.clock  = {
         //    now:  new Date()

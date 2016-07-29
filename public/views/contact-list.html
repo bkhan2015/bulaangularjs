@@ -5,9 +5,9 @@
 </div>-->
 <div class ="container">
 <table class="table table-hover">
-  <td ng-repeat = "contact in contacts">
+  <td ng-repeat = "contact in contacts track by id">
   <!--  {{title}} -->
-    {{contact.firstName}}
+    {{contact}}
   </td>
 </table>
 </div>
